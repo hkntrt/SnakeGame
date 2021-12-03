@@ -22,7 +22,6 @@ namespace SnakeGame
                 {
                     if (y == 0 || y == height - 1)
                     {
-                        //stoneCoordinates.Add(new Coordinate(x,y));
                         Game.wallCoordinates.Add(new Coordinate(x, y));
                         
                     }

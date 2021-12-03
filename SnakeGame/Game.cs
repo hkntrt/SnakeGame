@@ -47,7 +47,7 @@ namespace SnakeGame
 
         public static void DrawScreen()
         {
-            Console.Clear();
+            Console.SetCursorPosition(0, 0);
             for (int y = 0; y < height; y++)
             {
                 for (int x = 0; x < width; x++)

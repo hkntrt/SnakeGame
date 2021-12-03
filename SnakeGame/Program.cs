@@ -46,7 +46,7 @@ namespace SnakeGame
                 {
                     break;
                 }
-                Thread.Sleep(200); // bekle çünkü windows konsolu saniyede 30 tazeleme yapacak kadar hızlı değil.
+                Thread.Sleep(200); 
             }
             Console.WriteLine("GAME OVER");
         }
